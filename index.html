@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!------------StyleSheet Section Start------------->
+    <link rel="stylesheet" href="style.css">
+    <!------------StyleSheet Section End--------------->
+
+    <title>ToDo's WebList</title>
+</head>
+
+<body>
+    <!-----------Header Section Start-------------->
+    <h2>ToDo's WebList</h2>
+    <!-----------Header Section End---------------->
+
+    <!-----------Time Section Start---------------->
+    <div class="time">
+        <p id="t"></p>
+    </div>
+    <!-----------Time Section End------------------>
+
+    <!--------Data/Container Section Start--------->
+    <div class="data">
+        <div class="container">
+            <h3>Title</h3>
+            <input type="text" id="title" placeholder="">
+            <h3>Description</h3>
+            <textarea type="text" placeholder="" id="desc"></textarea>
+            <div class="but">
+                <button id="add">Add Item</button>
+                <button id="clearstorage">Clear List</button>
+            </div>
+        </div>
+        <table class="do-list scroll">
+            <thead>
+                <tr>
+                    <th>Sno.</th>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="tb">
+                <tr>
+                    <td>Sno.</td>
+                    <td>Title</td>
+                    <td>Description</td>
+                    <td><button id="clc">Delete</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!--------Data/Container Section End----------->
+
+    <!------------Footer Section Start------------->
+    <section id="footer">
+        <h1><a href="https://pinnintisagarsb.github.io/SAGAR/">SAGAR</a></h1>
+        <h3>Builds your Dream Website</h3>
+        <div class="social-icons">
+            <a href="#"><img src="images/instagram.png" alt=""></a>
+            <a href="#"><img src="images/facebook.png" alt=""></a>
+            <a href="#"><img src="images/twitter.png" alt=""></a>
+        </div>
+        <p>Copyright @ 2021 SAGAR. All rights reserved.</p>
+    </section>
+    <!------------Footer Section End---------------->
+
+    <!------------Script Section Start-------------->
+    <script src="script.js"></script>
+    <!--------------Script Section End-------------->
+
+</body>
+
+</html>
